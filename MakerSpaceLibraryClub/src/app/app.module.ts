@@ -29,7 +29,7 @@ import {
   MdToolbarModule,
   MdTooltipModule
 } from '@angular/material';
-
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 export const MaterialModules = [
   MdAutocompleteModule,
@@ -67,6 +67,7 @@ export const MaterialModules = [
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModules,
+    FlexLayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
